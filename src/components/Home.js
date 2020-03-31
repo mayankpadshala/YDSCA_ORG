@@ -11,6 +11,7 @@ import SubhVichar from './dashboard/SubhVichar'
 import Articles from './dashboard/Articles'
 import Footer from './dashboard/Footer'
 import UpcomingEvents from './dashboard/UpcomingEvents'
+import img from '../media/images/img.png'
 
 const useStyles = makeStyles((theme) => ({
     mainGrid: {
@@ -29,27 +30,9 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const mainBannerProps = {
-    image: 'https://source.unsplash.com/random',
+    img: 'https://source.unsplash.com/random',
+    image: require("../media/images/HaridhamMandir.jpg"),
 };
-
-const featuredPosts = [
-    {
-        title: 'Featured post',
-        date: 'Nov 12',
-        description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
-        image: 'https://source.unsplash.com/random',
-        imageText: 'Image Text',
-    },
-    {
-        title: 'Post title',
-        date: 'Nov 11',
-        description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
-        image: 'https://source.unsplash.com/random',
-        imageText: 'Image Text',
-    },
-];
 
 const Home = (props) => {
 

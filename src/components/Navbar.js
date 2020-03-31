@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: '50%',
         maxHeight: '70%',
         top: '50%',
-        transform: 'translate(-50%, -50%)',
+        transform: 'translate(25%, -50%)',
         position: 'absolute',
     },
     rightToolbar: {
@@ -40,7 +40,8 @@ const Navbar = (props) => {
             <div>
                 <AppBar position="fixed" color="#fff" elevation={0}>
                     <Toolbar className={classes.toolbar}>
-                        <Button size="small">LOGO</Button>
+                        {/* <Button size="small">LOGO</Button> */}
+                        <img className={classes.logo} src={require("../media/images/HaridhamLogo.png")} alt="LOGO"></img>
                         <div className={classes.rightToolbar}>
                             <Button size="small">ABOUT</Button>
                         </div>
