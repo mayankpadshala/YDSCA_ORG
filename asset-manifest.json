@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/YDSCA_ORG/static/css/main.050523cc.chunk.css",
-    "main.js": "/YDSCA_ORG/static/js/main.dd6844fa.chunk.js",
-    "main.js.map": "/YDSCA_ORG/static/js/main.dd6844fa.chunk.js.map",
+    "main.js": "/YDSCA_ORG/static/js/main.3cd5eaaa.chunk.js",
+    "main.js.map": "/YDSCA_ORG/static/js/main.3cd5eaaa.chunk.js.map",
     "runtime-main.js": "/YDSCA_ORG/static/js/runtime-main.58839298.js",
     "runtime-main.js.map": "/YDSCA_ORG/static/js/runtime-main.58839298.js.map",
-    "static/js/2.d04fca3c.chunk.js": "/YDSCA_ORG/static/js/2.d04fca3c.chunk.js",
-    "static/js/2.d04fca3c.chunk.js.map": "/YDSCA_ORG/static/js/2.d04fca3c.chunk.js.map",
+    "static/js/2.f1670b9c.chunk.js": "/YDSCA_ORG/static/js/2.f1670b9c.chunk.js",
+    "static/js/2.f1670b9c.chunk.js.map": "/YDSCA_ORG/static/js/2.f1670b9c.chunk.js.map",
     "index.html": "/YDSCA_ORG/index.html",
-    "precache-manifest.f2960553cbebdd0bd92dbef828a0f59b.js": "/YDSCA_ORG/precache-manifest.f2960553cbebdd0bd92dbef828a0f59b.js",
+    "precache-manifest.d3d2ecc5dbec1cc69cdb892cbc7f7822.js": "/YDSCA_ORG/precache-manifest.d3d2ecc5dbec1cc69cdb892cbc7f7822.js",
     "service-worker.js": "/YDSCA_ORG/service-worker.js",
     "static/css/main.050523cc.chunk.css.map": "/YDSCA_ORG/static/css/main.050523cc.chunk.css.map",
-    "static/js/2.d04fca3c.chunk.js.LICENSE.txt": "/YDSCA_ORG/static/js/2.d04fca3c.chunk.js.LICENSE.txt"
+    "static/js/2.f1670b9c.chunk.js.LICENSE.txt": "/YDSCA_ORG/static/js/2.f1670b9c.chunk.js.LICENSE.txt",
+    "static/media/HaridhamMandir.jpg": "/YDSCA_ORG/static/media/HaridhamMandir.41c18d4e.jpg",
+    "static/media/img.png": "/YDSCA_ORG/static/media/img.0539ca5c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.58839298.js",
-    "static/js/2.d04fca3c.chunk.js",
+    "static/js/2.f1670b9c.chunk.js",
     "static/css/main.050523cc.chunk.css",
-    "static/js/main.dd6844fa.chunk.js"
+    "static/js/main.3cd5eaaa.chunk.js"
   ]
 }
