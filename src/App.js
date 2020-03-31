@@ -17,7 +17,7 @@ const App = () => {
         <Router>
           <Fragment>
             <Navbar />
-            <Route exact path="/" component={Home} />
+            <Route exact path="/YDSCA_ORG" component={Home} />
             <Switch>
               <Route exact path="/blog" component={Home} />
             </Switch>
