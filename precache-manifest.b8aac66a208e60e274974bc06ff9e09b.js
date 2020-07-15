@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "397aeef406c3d519feb3384f5783af43",
+    "revision": "f35593386c5859024b680b5d0c75defd",
     "url": "/YDSCA_ORG/index.html"
   },
   {
-    "revision": "72c778d8cd2023c452fd",
+    "revision": "acb2caff9fd39335201d",
     "url": "/YDSCA_ORG/static/css/main.0bbeb6f4.chunk.css"
   },
   {
-    "revision": "2a1a0cd298225148b4be",
-    "url": "/YDSCA_ORG/static/js/2.95446825.chunk.js"
+    "revision": "2d6c38b3d4fb3c51f6c0",
+    "url": "/YDSCA_ORG/static/js/2.1a767b22.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/YDSCA_ORG/static/js/2.95446825.chunk.js.LICENSE.txt"
+    "url": "/YDSCA_ORG/static/js/2.1a767b22.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72c778d8cd2023c452fd",
-    "url": "/YDSCA_ORG/static/js/main.0e5ec4fb.chunk.js"
+    "revision": "acb2caff9fd39335201d",
+    "url": "/YDSCA_ORG/static/js/main.db6e44ed.chunk.js"
   },
   {
     "revision": "ff6361f7d40411f1fea4",
