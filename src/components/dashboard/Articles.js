@@ -33,21 +33,13 @@ const Articles = (props) => {
   return (
     <Grid container elevation={0}>
       <Grid item xs={12} elevation={0}>
-        <Typography component='h1' variant='h4' color='inherit' gutterBottom>
+        <Typography variant='h4' color='inherit' gutterBottom>
           Recent Events
         </Typography>
       </Grid>
       <Grid item sm={6} xs={12} elevation={0}>
         <Paper className={classes.paper} elevation={0}>
           <div className={classes.mainFeaturedPostContent}>
-            <Typography
-              component='h1'
-              variant='h5'
-              color='inherit'
-              gutterBottom
-            >
-              <Link href='#'>Holi-Dhuleti</Link>
-            </Typography>
             <Card className={classes.root} elevation={0}>
               <CardActionArea>
                 <CardMedia
@@ -60,6 +52,16 @@ const Articles = (props) => {
                 />
               </CardActionArea>
             </Card>
+            <Typography
+              component='h1'
+              variant='h5'
+              color='inherit'
+              gutterBottom
+            >
+              <Link color='inherit' href='#'>
+                Holi-Dhuleti
+              </Link>
+            </Typography>
             <Typography color='inherit'>
               Celebrated On: March 8, 2020
             </Typography>
@@ -69,14 +71,6 @@ const Articles = (props) => {
       <Grid item sm={6} xs={12} elevation={0}>
         <Paper className={classes.paper} elevation={0}>
           <div className={classes.mainFeaturedPostContent}>
-            <Typography
-              component='h1'
-              variant='h5'
-              color='inherit'
-              gutterBottom
-            >
-              <Link href='#'>Bhagatji Maharaj’s Pragatyadin</Link>
-            </Typography>
             <Card className={classes.root} elevation={0}>
               <CardActionArea>
                 <CardMedia
@@ -89,6 +83,16 @@ const Articles = (props) => {
                 />
               </CardActionArea>
             </Card>
+            <Typography
+              component='h1'
+              variant='h5'
+              color='inherit'
+              gutterBottom
+            >
+              <Link color='inherit' href='#'>
+                Bhagatji Maharaj’s Pragatyadin
+              </Link>
+            </Typography>
             <Typography color='inherit'>
               Celebrated On: March 9, 2020
             </Typography>

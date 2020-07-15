@@ -13,22 +13,23 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     flexWrap: 'wrap',
-    backgroundColor: '#fff7ea',
+    backgroundColor: '#fff',
+    marginTop: 48,
+    marginBottom: 64,
   },
   heading: {},
   paper: {
-    backgroundColor: '#fff7ea',
+    backgroundColor: '#fff',
   },
   description: {
-    marginTop: 8,
-    marginLeft: 16,
+    marginTop: 16,
+    marginBottom: 32,
   },
   mainFeaturedPostContent: {
     position: 'relative',
     marginRight: 0,
     [theme.breakpoints.up('md')]: {
       padding: theme.spacing(4),
-      paddingRight: 0,
     },
   },
   backgroundCream: {
@@ -42,7 +43,7 @@ const SubhVichar = (props) => {
 
   return (
     <Grid container elevation={0} className={classes.root}>
-      <Grid item sm={8} xs={12} elevation={0} className={classes.text}>
+      <Grid item sm={12} xs={12} elevation={0} className={classes.text}>
         <Paper className={classes.paper} elevation={0}>
           <div className={classes.mainFeaturedPostContent}>
             <Typography
@@ -57,21 +58,13 @@ const SubhVichar = (props) => {
             <Divider variant='middle' />
             <Grid item xs={12} elevation={0} className={classes.description}>
               <Divider orientation='vertical' flexItem />
-              <Typography variant='h6' color='inherit' paragraph align='left'>
+              <Typography variant='h6' color='inherit' paragraph align='center'>
                 A saint is true friend of soul. The selfless love from the saint
                 is capable to uplift our soul and channelize the potential
                 within us.
-                <Link variant='subtitle1' href='#'>
-                  Read Mode
-                </Link>
               </Typography>
             </Grid>
           </div>
-        </Paper>
-      </Grid>
-      <Grid item xs={12} sm={4} elevation={0}>
-        <Paper className={classes.paper} elevation={0}>
-          <MainBanner mainBanner={mainBanner} />
         </Paper>
       </Grid>
     </Grid>

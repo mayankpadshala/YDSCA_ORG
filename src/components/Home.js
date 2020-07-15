@@ -18,11 +18,12 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '36px',
   },
   root: {
-    backgroundColor: '#fff7ea',
+    backgroundColor: '#fff',
     height: '100%',
   },
   paper: {
-    padding: theme.spacing(2),
+    paddingLeft: theme.spacing(2),
+    paddingRight: theme.spacing(2),
     textAlign: 'center',
     height: '100%',
     color: theme.palette.text.secondary,
